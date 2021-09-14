@@ -69,3 +69,9 @@ ansible_password=<same login password for root on all the machine>
 ## Contributions
 
 Please feel free to fork this repo, more crpto alternatives will be coming soon!
+
+# References
+
+[Mine Crypto On Google Cloud For Free](https://www.youtube.com/watch?v=XMGnWFrNL5U&list=LL&index=87&t=54s)
+
+[NetworkChuck - you need to learn Ansible RIGHT NOW!! (Linux Automation)](https://www.youtube.com/watch?v=5hycyr-8EKs&t=746s)
