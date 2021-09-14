@@ -64,3 +64,8 @@ ansible_password=<same login password for root on all the machine>
    * `$ sudo ansible setup-minerig.yml`
   
 5. DONE, now go to the [pool.rplant](https://pool.rplant.xyz/) to monitor your your hashrate etc.
+
+
+## Contributions
+
+Please feel free to fork this repo, more crpto alternatives will be coming soon!
