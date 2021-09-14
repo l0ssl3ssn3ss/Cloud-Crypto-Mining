@@ -1,0 +1,15 @@
+---
+  - name: setupminerig
+    hosts: minerig
+    tasks:
+    - name: get zip package
+      shell: wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip 
+
+    - name: install unzip
+      shell: apt install unzip 
+
+    - name: unzip the package
+      shell: unzip sugarmaker-v2.5.0-sugar4-linux64.zip
+
+    - name: delete the zip package
+      shell: rm sugarmaker-v2.5.0-sugar4-linux64.zip

@@ -1,0 +1,14 @@
+---
+  - name: startupminerig
+    hosts: minerig
+    tasks:
+    - name: start the minerig
+      shell: ./sugarmaker -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u <wallet address> -t2
+      async: <background run time in seconds>
+      poll: 0
+      args:
+        chdir: sugarmaker-v2.5.0-sugar4-linux64
+
+#replace <wallet address> with your own wallet address
+#replace <background run time in seconds> with your desired time in seconds
+
