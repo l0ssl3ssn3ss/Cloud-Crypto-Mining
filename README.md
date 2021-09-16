@@ -1,5 +1,5 @@
 # Cloud-Crypto-Mining
-This repo was made for fun. Its contains a guide to mining SUGAR crypto via virtual cloud machines using Ansible.
+This repo was made for fun. It contains a guide to mining SUGAR crypto via virtual cloud machines using Ansible.
 
 NB:  You will need two or more cloud machines. You can set them up with this free $100 credit from [Linode](https://linode.com/seytonic)
 
